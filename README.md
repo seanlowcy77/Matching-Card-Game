@@ -15,9 +15,13 @@ To run the app, you need to run it on your own IOS device (using a USB cable) us
 
 ### a. Card Matching / Flipping
 
-Allows the user to flip and match cards only 2 at each time. The cards will disappear if they match and flip back if they do not
+It has a total of 16 cards - basically 8 pairs. The user can win by flipping over all the cards correctly! Should a pair match, the pair of cards will disappear. Otherwise, it will flip back downwards.
 
-### b. Play again function
+### b. Time Limit
+
+Its rather impossible but players have only 10 seconds to finish the game! Nevertheless, this timer may be changed if you wish.
+
+### c. Play again function
 
 Allows the user to play the game again should the player lose.
 
@@ -25,3 +29,7 @@ Allows the user to play the game again should the player lose.
 
 -   IOS 13.0+
 -   Running with XCode 11.7
+
+## 5. Notes
+
+There are multiple comments written within the code that may help with your understanding with what is going on. Nevertheless I encourage those who are new to Xcode or Swift to check out the tutorial link above. Have fun!
